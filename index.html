@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAHIRA INSTAN BERGO SYAR'I - Premium & Nyaman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFF5F2;
+            color: #7A5C58;
+        }
+        
+        .countdown-box {
+            background: linear-gradient(135deg, #F8E0DD 0%, #F5C4C1 100%);
+            box-shadow: 0 4px 20px rgba(215, 150, 147, 0.25);
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .promo-badge {
+            background: linear-gradient(135deg, #E83E8C 0%, #FF6B6B 100%);
+            transform: rotate(-5deg);
+        }
+        
+        .testimonial-card {
+            background: linear-gradient(135deg, #FFFFFF 0%, #FFF0EB 100%);
+            box-shadow: 0 5px 20px rgba(242, 184, 181, 0.15);
+        }
+        
+        .product-highlight {
+            border-left: 4px solid #E83E8C;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #E83E8C 0%, #FF6B6B 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(232, 62, 140, 0.3);
+        }
+        
+        .feature-icon {
+            background-color: #F8D7D2;
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-pink-600">ZAHIRA</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#product" class="text-gray-700 hover:text-pink-600">Produk</a>
+                    <a href="#features" class="text-gray-700 hover:text-pink-600">Keunggulan</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-pink-600">Testimoni</a>
+                    <a href="#order" class="text-gray-700 hover:text-pink-600">Pesan Sekarang</a>
+                </div>
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Image -->
+    <section class="w-full">
+        <img src="https://cdn.orderonline.id/uploads/images_1876431751477372186.png" alt="Zahira Instan Bergo Syar'i" class="w-full h-auto">
+    </section>
+
+    <!-- Product Title & Description -->
+    <section id="product" class="container mx-auto px-4 py-12">
+        <div class="text-center max-w-3xl mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">ZAHIRA INSTAN BERGO SYAR'I</h1>
+            <p class="text-xl text-pink-600 font-medium mb-6">BAHAN PREMIUM NYAMAN</p>
+            <p class="text-gray-600 mb-8">Tampil anggun dan syar'i dengan bergo instan praktis dari Zahira. Dibuat dengan bahan premium yang nyaman dipakai seharian.</p>
+            
+            <div class="flex flex-wrap justify-center gap-4 mb-8">
+                <div class="flex items-center bg-pink-50 px-4 py-2 rounded-full">
+                    <div class="w-6 h-6 rounded-full bg-pink-100 flex items-center justify-center mr-2">
+                        <i class="fas fa-check text-pink-600 text-xs"></i>
+                    </div>
+                    <span class="text-sm font-medium">Bahan Premium</span>
+                </div>
+                <div class="flex items-center bg-pink-50 px-4 py-2 rounded-full">
+                    <div class="w-6 h-6 rounded-full bg-pink-100 flex items-center justify-center mr-2">
+                        <i class="fas fa-check text-pink-600 text-xs"></i>
+                    </div>
+                    <span class="text-sm font-medium">Praktis & Mudah</span>
+                </div>
+                <div class="flex items-center bg-pink-50 px-4 py-2 rounded-full">
+                    <div class="w-6 h-6 rounded-full bg-pink-100 flex items-center justify-center mr-2">
+                        <i class="fas fa-check text-pink-600 text-xs"></i>
+                    </div>
+                    <span class="text-sm font-medium">Banyak Pilihan Warna</span>
+                </div>
+            </div>
+            
+            <a href="#order" class="btn-primary text-white font-bold py-3 px-8 rounded-full inline-block">PESAN SEKARANG</a>
+        </div>
+    </section>
+
+    <!-- Product Features -->
+    <section id="features" class="bg-white py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Keunggulan Produk Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-pink-100 text-pink-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-star text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Bahan Premium</h3>
+                    </div>
+                    <p class="text-gray-600">Dibuat dengan bahan berkualitas tinggi yang lembut, adem, dan nyaman dipakai seharian tanpa membuat kepala panas.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-pink-100 text-pink-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-bolt text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Praktis & Mudah</h3>
+                    </div>
+                    <p class="text-gray-600">Desain instan yang mudah dipakai, cocok untuk aktivitas sehari-hari maupun acara formal tanpa ribet.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-pink-100 text-pink-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-palette text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold">Banyak Pilihan Warna</h3>
+                    </div>
+                    <p class="text-gray-600">Tersedia dalam berbagai pilihan warna yang elegan dan cocok untuk berbagai kesempatan dan warna kulit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Detail Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="https://cdn.orderonline.id/uploads/images_7958691751477391941.gif" alt="Detail Zahira Bergo 1" class="w-full h-auto rounded-lg shadow-md mb-4">
+                    <p class="text-gray-600">Desain syar'i yang modis dengan lipatan rapi yang membuat tampilan lebih anggun.</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://cdn.orderonline.id/uploads/images_3724521751477452064.jpg" alt="Detail Zahira Bergo 2" class="w-full h-auto rounded-lg shadow-md mb-4">
+                    <p class="text-gray-600">Bahan berkualitas yang tidak mudah kusut dan tetap rapi sepanjang hari.</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://cdn.orderonline.id/uploads/images_2392771751477370322.jpg" alt="Detail Zahira Bergo 3" class="w-full h-auto rounded-lg shadow-md mb-4">
+                    <p class="text-gray-600">Jahitan kuat dan presisi untuk kenyamanan maksimal saat dipakai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Pilihan Warna Tersedia</h2>
+            <div class="flex justify-center">
+                <img src="https://cdn.orderonline.id/uploads/images_3121191751477426489.jpeg" alt="Pilihan Warna Zahira Bergo" class="max-w-full h-auto rounded-lg shadow-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-12 bg-pink-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Apa Kata Pelanggan Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card p-6 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-pink-200 flex items-center justify-center text-pink-600 font-bold mr-4">A</div>
+                        <div>
+                            <h4 class="font-semibold">Anisa Rahma</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Bergonya sangat nyaman dipakai, bahannya adem dan tidak bikin gerah. Desainnya juga syar'i tapi tetap modis. Sudah beli 3 warna berbeda!"</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card p-6 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-pink-200 flex items-center justify-center text-pink-600 font-bold mr-4">D</div>
+                        <div>
+                            <h4 class="font-semibold">Dina Safitri</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Pengiriman cepat dan packing rapi. Bergo Zahira ini benar-benar praktis, tinggal pakai langsung rapi. Cocok untuk ibu-ibu sibuk seperti saya."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card p-6 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-pink-200 flex items-center justify-center text-pink-600 font-bold mr-4">S</div>
+                        <div>
+                            <h4 class="font-semibold">Siti Aminah</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Warnanya persis seperti di foto, bahannya premium dan jahitannya rapi. Sudah beli di tempat lain sebelumnya tapi tidak senyaman ini. Recommended banget!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Countdown -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="countdown-box rounded-xl p-8 text-center max-w-3xl mx-auto">
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">PROMO SPESIAL HARI INI!</h2>
+                <p class="text-white mb-6">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+                
+                <div class="flex justify-center space-x-4 mb-8">
+                    <div class="bg-white text-pink-600 rounded-lg py-2 px-4">
+                        <div class="text-3xl font-bold" id="countdown-hours">12</div>
+                        <div class="text-sm">Jam</div>
+                    </div>
+                    <div class="bg-white text-pink-600 rounded-lg py-2 px-4">
+                        <div class="text-3xl font-bold" id="countdown-minutes">45</div>
+                        <div class="text-sm">Menit</div>
+                    </div>
+                    <div class="bg-white text-pink-600 rounded-lg py-2 px-4">
+                        <div class="text-3xl font-bold" id="countdown-seconds">30</div>
+                        <div class="text-sm">Detik</div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <div class="text-center">
+                        <div class="text-sm text-white mb-1">Harga Normal</div>
+                        <div class="text-2xl font-bold text-white line-through">Rp 186.000</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-sm text-white mb-1">Harga Promo</div>
+                        <div class="text-3xl font-bold text-white">Rp 125.000</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-sm text-white mb-1">Anda Hemat</div>
+                        <div class="text-2xl font-bold text-white">Rp 61.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="py-8 bg-white">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <div class="border border-pink-200 rounded-xl p-6">
+                <h3 class="text-lg font-semibold text-center mb-4">Informasi Penting</h3>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <i class="fas fa-truck text-pink-500 mt-1 mr-3"></i>
+                        <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt text-pink-500 mt-1 mr-3"></i>
+                        <span>Mohon Isi Alamat Dengan Lengkap</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-certificate text-pink-500 mt-1 mr-3"></i>
+                        <span>100% Product Original</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price & Order Section -->
+    <section id="order" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <!-- Promo Image -->
+                <div class="relative">
+                    <img src="https://cdn.orderonline.id/uploads/images_2628021751477374521.png" alt="Promo Zahira Bergo" class="w-full h-auto">
+                    <div class="promo-badge absolute top-4 right-4 text-white font-bold py-1 px-4 rounded-md">DISKON 33%</div>
+                </div>
+                
+                <!-- Price Info -->
+                <div class="p-6 md:p-8">
+                    <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                        <div>
+                            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">ZAHIRA INSTAN BERGO SYAR'I</h2>
+                            <p class="text-pink-600 font-medium">BAHAN PREMIUM NYAMAN</p>
+                        </div>
+                        <div class="mt-4 md:mt-0 text-center">
+                            <div class="text-sm text-gray-500">Harga Normal</div>
+                            <div class="text-xl font-bold text-gray-400 line-through">Rp 186.000</div>
+                            <div class="text-sm text-pink-600 mt-1">Harga Promo</div>
+                            <div class="text-3xl font-bold text-pink-600">Rp 125.000</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Order Form -->
+                    <div class="border border-gray-200 rounded-lg p-6">
+                        <h3 class="text-xl font-semibold mb-6 text-center">Form Pemesanan</h3>
+                        <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                            <p class="text-center text-gray-700">Stok terbatas! Hanya tersisa 12 pcs untuk promo hari ini</p>
+                        </div>
+                        
+                        <!-- OrderOnline Embed Code -->
+                        <div class="order-form bg-white p-4 rounded-lg">
+                            <div class="ooef">
+                                <form class="orderonline-embed-form" data-username="rara" data-product-slug="zahira-instan-bergo-syari" data-product-id="686747a402f1fdc86a03f89a" id="oo-embed-form-zahira-instan-bergo-syari-3704" data-origin="orderonline">
+                                    <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                                </form>
+                            </div>
+                        </div>
+                        <script>
+                            if (typeof xLogError != 'function') {
+                                var xLogError = function (error) {
+                                    var req = new XMLHttpRequest();
+                                    var payload = JSON.stringify({
+                                        url: document.location.href,
+                                        line: error.line,
+                                        stack: error.stack
+                                    });
+                                    var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                                    req.open('POST', 'https://api.orderonline.id/log', true);
+                                    req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                                    req.send(params);
+                                };
+                            }
+                            try {
+                                if (typeof xEmbedScript != 'function') {
+                                    var xEmbedScript = function () {
+                                        !function(w, d, e, v, id, t, s) {
+                                            if (d.getElementById(id)) return;
+                                            t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                            s = d.getElementsByTagName(e)[0];
+                                            s.parentNode.insertBefore(t, s);
+                                        }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                                    };
+                                }
+                                if (typeof xEmbedInit != 'function') {
+                                    var xEmbedInit = function (w, n) {
+                                        if (w.ooe) return;
+                                        n = w.ooe = function() {
+                                            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                        };
+                                        if (!w._ooe) w._ooe = n;
+                                        n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                                    };
+                                }
+                                xEmbedInit(window);
+                                ooe('setup', 'redirect', 'https://rara.orderonline.id');
+                                ooe('init', '5f12ee789d8e8e5e870172ee', '686747a402f1fdc86a03f89a', null, 'oo-embed-form-zahira-instan-bergo-syari-3704', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                                if (!window.jQuery) {
+                                    !function(w, d, e, v, id, t, s) {
+                                        if (d.getElementById(id)) return;
+                                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                        t.addEventListener('load', xEmbedScript);
+                                        s = d.getElementsByTagName(e)[0];
+                                        s.parentNode.insertBefore(t, s);
+                                    }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                                } else {
+                                    xEmbedScript();
+                                }
+                            } catch (e) {
+                                xLogError(e);
+                                throw e;
+                            }
+                        </script>
+                    </div>
+                    
+                    <div class="mt-6 text-center text-sm text-gray-500">
+                        <p><i class="fas fa-lock text-pink-500 mr-2"></i> Data Anda aman dan tidak akan disalahgunakan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="text-2xl font-bold mb-4">ZAHIRA</div>
+                <p class="mb-6">Instan Bergo Syar'i Premium</p>
+                <div class="flex justify-center space-x-4 mb-6">
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-pink-600">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-pink-600">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center hover:bg-pink-600">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <p class="text-sm text-gray-400">© 2025 Zahira Instan Bergo Syar'i. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Countdown Timer Script -->
+    <script>
+        // Set the date we're counting down to (24 hours from now)
+        const countDownDate = new Date();
+        countDownDate.setHours(countDownDate.getHours() + 24);
+        
+        // Update the count down every 1 second
+        const x = setInterval(function() {
+            // Get today's date and time
+            const now = new Date().getTime();
+            
+            // Find the distance between now and the count down date
+            const distance = countDownDate - now;
+            
+            // Time calculations for hours, minutes and seconds
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Display the result
+            document.getElementById("countdown-hours").innerHTML = hours.toString().padStart(2, '0');
+            document.getElementById("countdown-minutes").innerHTML = minutes.toString().padStart(2, '0');
+            document.getElementById("countdown-seconds").innerHTML = seconds.toString().padStart(2, '0');
+            
+            // If the count down is finished, clear interval
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown-hours").innerHTML = "00";
+                document.getElementById("countdown-minutes").innerHTML = "00";
+                document.getElementById("countdown-seconds").innerHTML = "00";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
